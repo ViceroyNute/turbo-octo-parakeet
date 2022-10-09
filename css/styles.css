@@ -1,0 +1,153 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+a:hover {
+  color: #CDE9EB;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  width: 3%;
+  margin: 100px auto;
+}
+
+p {
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #CDE9EB;
+  background: linear-gradient(#CDE9EB 50%, white);
+  position: relative;
+  padding-top: 100px;
+}
+
+.programmer {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  color: #66BFBF;
+}
+
+.middel-container {
+  margin: 100px 0;
+}
+
+.intro {
+  line-height: 2;
+  width:50%;
+  margin: auto;
+}
+.skill-row1 {
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+
+  background-color: #CDE9EB;
+  background: linear-gradient(white, #CDE9EB 40%);
+  margin-top: 200px;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 450px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.mountain {
+  position: relative;
+  top: 50px;
+}
+
+.cloudberry {
+  float: left;
+  margin-right: 30px;
+}
+
+.mushroom {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 10px auto;
+}
+.btn {
+  background: #8cdeb5;
+  background-image: linear-gradient(to bottom, #8cdeb5, #86ccb4);
+  border-radius: 28px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #a6e0ca;
+  background-image: linear-gradient(to bottom, #a6e0ca, #b3d5eb);
+  text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 20px;
+
+}
+
+.copywrite {
+  color: #EAF6F6;
+  padding-top: 50px;
+}
